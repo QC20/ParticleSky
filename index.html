@@ -3,8 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Infinity </title>
+      <!-- Add Jonas Kjeldmand Jensen (Credit Link)-->
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/credit.css" />
   <link rel="stylesheet" href="src/styles/stylesheet.css">
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
 
+#spring-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+</style>
 </head>
 <body>
   
@@ -21,6 +46,10 @@
   <div class="cover"></div>
 </div>
 <!-- partial -->
+<div id="spring-text">
+  <canvas id="canvas"></canvas>
+</div>
+<script src="src/javascript/credit.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="src/javascript/app.js"></script>
 
